@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>REGISTRATION FORM</h1>
+<style>
+body{
+        background-color: skyblue;
+}
+h1{
+    background-color: royalblue;
+    color: whitesmoke;
+}
+</style>
+</head>
+<body>
+<form method="post" action="connect.php">
+
+Firstname: <input type="text" name="Firstname"><br><br>
+Lastname : <input type="text" name="Lastname"><br><br>
+<label for="">Gender:</label>
+    <input type="radio" name="gender"value="M" />
+<label for="">Male</label>
+    <input type="radio" name="gender" value="F" />
+<label for="">Female</label><br><br>
+Address :
+<textarea rows = "5" cols = "50" name = "address">
+</textarea><br><br>
+Phone number: <input type="text" name="pnumber"><br><br>
+Email    : <input type="text" name="username"><br><br>
+Create Password : <input type="password" name= "password"><br><br>
+Confirm Password : <input type="password" name= "cpassword"><br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
